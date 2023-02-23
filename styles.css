@@ -1,0 +1,29 @@
+.container {
+    height: 800px;
+    width: 800px;
+    border: solid 2px;
+    display: flex;
+    align-content: stretch;
+    border: none;
+}
+
+/* dlaczego boxy nie maja rozmiaru 100x100? */
+
+.box1 {
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    flex-grow: 1;
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.box2 {
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: none;
+    flex-grow: 1;
+    align-content: stretch;
+}
